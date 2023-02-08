@@ -1,1 +1,32 @@
+button:hover {
+    background-color: cornflowerblue;
+    color:white;
+    transition: 1s;
+}
 
+.caption {
+    position: relative;
+    overflow: hidden;
+    }
+
+.img-caption {
+    position: absolute;
+    top:0px;
+    left: 0;
+    color:white;
+    text-align: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateY(350px);
+    transition: transform .5s ease-out;
+}
+
+   
+.caption:hover .img-caption {
+    transform: translateY(0);
+   }
+
+body {
+    width:960px;
+}
+    
